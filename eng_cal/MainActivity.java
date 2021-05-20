@@ -271,7 +271,7 @@ public class MainActivity extends AppCompatActivity {
                         operator += "E";
                         break;
                     case R.id.answer:
-                        inFor += "\0";
+                        inFor += "";
                         operator += "=";
                         sp.makeStack(inFor);
                         res = Double.parseDouble(sp.stackNum.pop());
