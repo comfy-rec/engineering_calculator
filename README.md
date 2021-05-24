@@ -22,7 +22,7 @@
 
 ### 2-4. Layout
 
-      activity_main 파일에서 Linear Layout에서 TextView 출력창, EditText 입력창, Table Layout에서 버튼 배치.
+      activity_main 파일에서 Linear Layout에서 TextView 출력창, TexrView 입력창, Table Layout에서 버튼 배치.
 
 ### 2-5. Data Definition
 
