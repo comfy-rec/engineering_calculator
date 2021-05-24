@@ -22,14 +22,14 @@
 
 ### 2-4. Layout
 
-      activity_main 파일에서 Linear Layout에서 TextView 출력창, TexrView 입력창, Table Layout에서 버튼 배치.
+    activity_main 파일에서 Linear Layout에서 TextView 출력창, TexrView 입력창, Table Layout에서 버튼 배치.
 
 ### 2-5. Data Definition
 
-      String으로 입력.
+    String으로 입력.
    
-      연산할 때만 Double로 변환 후 연산.
+    연산할 때만 Double로 변환 후 연산.
    
-      String으로 출력.
+    String으로 출력.
 
 ## 3. 결과
