@@ -18,11 +18,37 @@
 
 ### 2-2. Class
 
+    activity_main.xml - layout
+
+    MainActivity.java - button listener & selection, output display
+
+    operation.java - operation definition
+
+    stackPriority.java - operation & stack priority decision, postfix operation
+
 ### 2-3. Method
+
+    activity_main.xml
+
+    MainActivity.java  
+    void init() - initialization  
+    void setNumListener() - number display  
+    void setOperaListener() - operator display
+
+    operation.java  
+    void split(Stack<String> st_num, Stack<String> op, String s) - number & operator split
+
+    stackPriority.java  
+    stackPriority() - stack initialization & allocation  
+    void makeStack(String inputFormula) - stack control  
+    void calStack(String op) - calculation  
+    void assignPri(String post) - priority assignment & comparision  
+    boolean isOperator(String s) - ( & operator verification  
+    boolean isdigit(String s) - number verification
 
 ### 2-4. Layout
 
-    activity_main 파일에서 Linear Layout에서 TextView 출력창, TexrView 입력창, Table Layout에서 버튼 배치.
+    activity_main.xml - LinearLayout에서 TextView 출력창(outputLog), TexrView 입력창(inputFormula), TableLayout에서 버튼 배치.
 
 ### 2-5. Data Definition
 
