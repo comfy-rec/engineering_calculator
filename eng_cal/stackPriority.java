@@ -23,7 +23,11 @@ public class stackPriority extends operation{
         priorityMap.put("!", 1);
         priorityMap.put("abs", 1);
         priorityMap.put("log", 1);
-        priorityMap.put("ln", 1);
+        priorityMap.put("ln_", 1);
+        priorityMap.put("√", 1);
+        priorityMap.put("neg", 1);
+        priorityMap.put("π", 1);
+        priorityMap.put("e", 1);
         priorityMap.put("^", 0);
     }
 
@@ -37,9 +41,11 @@ public class stackPriority extends operation{
         stackOp = new Stack<>();
         stackNum = new Stack<>();
     }
+
     void makeStack(String inputFormula) {
-        StringTokenizer str = new StringTokenizer(inputFormula, "+-×÷%()^",true);
+        StringTokenizer str = new StringTokenizer(inputFormula, "+-×÷%()^!√",true);
         String tmp = "";
+
         while(str.hasMoreTokens()) {
             tmp = str.nextToken();
             if(isOperator(tmp) == true) {
@@ -76,6 +82,7 @@ public class stackPriority extends operation{
             calStack(tmp);
         }
     }
+
     void calStack(String op) {
         String num1, num2;
         double n1, n2;
@@ -88,8 +95,7 @@ public class stackPriority extends operation{
                 num1 = stackNum.pop();     //num1 = pop
                 n1 = Double.parseDouble(num1);
                 cal = sum(n1,n2);
-                System.out.println(Double.toString(cal));
-
+                //System.out.println(Double.toString(cal));
                 stackNum.push(Double.toString(cal));
                 break;
             case "-" :
@@ -98,8 +104,7 @@ public class stackPriority extends operation{
                 num1 = stackNum.pop();     //num1 = pop
                 n1 = Double.parseDouble(num1);
                 cal = sub(n1,n2);
-                System.out.println(Double.toString(cal));
-
+                //System.out.println(Double.toString(cal));
                 stackNum.push(Double.toString(cal));
                 break;
             case "×" :
@@ -108,8 +113,7 @@ public class stackPriority extends operation{
                 num1 = stackNum.pop();     //num1 = pop
                 n1 = Double.parseDouble(num1);
                 cal = mul(n1,n2);
-                System.out.println(Double.toString(cal));
-
+                //System.out.println(Double.toString(cal));
                 stackNum.push(Double.toString(cal));
                 break;
             case "÷" :
@@ -118,8 +122,7 @@ public class stackPriority extends operation{
                 num1 = stackNum.pop();     //num1 = pop
                 n1 = Double.parseDouble(num1);
                 cal = div(n1,n2);
-                System.out.println(Double.toString(cal));
-
+                //System.out.println(Double.toString(cal));
                 stackNum.push(Double.toString(cal));
                 break;
             case "%" :
@@ -128,72 +131,42 @@ public class stackPriority extends operation{
                 num1 = stackNum.pop();     //num1 = pop
                 n1 = Double.parseDouble(num1);
                 cal = mod(n1,n2);
-                System.out.println(Double.toString(cal));
-
+                //System.out.println(Double.toString(cal));
                 stackNum.push(Double.toString(cal));
                 break;
             case "sin" :
                 num1 = stackNum.pop();
                 n1 = Double.parseDouble(num1);
                 cal = sin(n1);
-                System.out.println(Double.toString(cal));
-
+                //System.out.println(Double.toString(cal));
                 stackNum.push(Double.toString(cal));
                 break;
             case "cos" :
                 num1 = stackNum.pop();
                 n1 = Double.parseDouble(num1);
                 cal = cos(n1);
-                System.out.println(Double.toString(cal));
-
+                //System.out.println(Double.toString(cal));
                 stackNum.push(Double.toString(cal));
                 break;
             case "tan" :
                 num1 = stackNum.pop();
                 n1 = Double.parseDouble(num1);
                 cal = tan(n1);
-                System.out.println(Double.toString(cal));
-
-                stackNum.push(Double.toString(cal));
-                break;
-            case "!" :
-                num1 = stackNum.pop();
-                n1 = Double.parseDouble(num1);
-                cal = fac(n1);
-                System.out.println(Double.toString(cal));
-
-                stackNum.push(Double.toString(cal));
-                break;
-            case "√" :
-                num1 = stackNum.pop();
-                n1 = Double.parseDouble(num1);
-                cal = rt(n1);
-                System.out.println(Double.toString(cal));
-
-                stackNum.push(Double.toString(cal));
-                break;
-            case "abs" :
-                num1 = stackNum.pop();
-                n1 = Double.parseDouble(num1);
-                cal = abs(n1);
-                System.out.println(Double.toString(cal));
-
+                //System.out.println(Double.toString(cal));
                 stackNum.push(Double.toString(cal));
                 break;
             case "log" :
                 num1 = stackNum.pop();
                 n1 = Double.parseDouble(num1);
                 cal = log(n1);
-                System.out.println(Double.toString(cal));
-
+                //System.out.println(Double.toString(cal));
                 stackNum.push(Double.toString(cal));
                 break;
-            case "ln" :
+            case "ln_" :
                 num1 = stackNum.pop();
                 n1 = Double.parseDouble(num1);
                 cal = ln(n1);
-                System.out.println(Double.toString(cal));
-
+                //System.out.println(Double.toString(cal));
                 stackNum.push(Double.toString(cal));
                 break;
             case "^" :
@@ -202,12 +175,46 @@ public class stackPriority extends operation{
                 num1 = stackNum.pop();     //num1 = pop
                 n1 = Double.parseDouble(num1);
                 cal = pow(n1,n2);
-                System.out.println(Double.toString(cal));
-
+                //System.out.println(Double.toString(cal));
                 stackNum.push(Double.toString(cal));
+                break;
+            case "!" :
+                num1 = stackNum.pop();
+                n1 = Double.parseDouble(num1);
+                cal = fac(n1);
+                //System.out.println(Double.toString(cal));
+                stackNum.push(Double.toString(cal));
+                break;
+            case "√" :
+                num1 = stackNum.pop();
+                n1 = Double.parseDouble(num1);
+                cal = rt(n1);
+                //System.out.println(Double.toString(cal));
+                stackNum.push(Double.toString(cal));
+                break;
+            case "abs" :
+                num1 = stackNum.pop();
+                n1 = Double.parseDouble(num1);
+                cal = abs(n1);
+                //System.out.println(Double.toString(cal));
+                stackNum.push(Double.toString(cal));
+                break;
+            case "neg" :
+                num1 = stackNum.pop();
+                n1 = Double.parseDouble(num1);
+                cal = negative(n1);
+                //System.out.println(Double.toString(cal));
+                stackNum.push(Double.toString(cal));
+                break;
+            case "π" :
+                pi(stackNum);
+                break;
+            case "e" :
+                e(stackNum);
                 break;
         }
     }
+
     void assignPri(String post) {
         String pre = stackOp.peek();
         //연산자 우선순위 비교
@@ -225,12 +232,14 @@ public class stackPriority extends operation{
             }
         }
     }
+
     boolean isOperator(String s) {
         if(s.equals(")")){
             return true;
         }
         return priorityMap.containsKey(s);
     }
+
     boolean isdigit(String s) {
         if(s.charAt(0) >= '0' && s.charAt(0) <= '9') {
             return true;
