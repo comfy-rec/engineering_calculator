@@ -12,6 +12,7 @@ public class operation {
         op.push(str);
         st_num.push(num);
     }
+    
     double sum(double x, double y) {
         return x + y;
     }
@@ -52,11 +53,12 @@ public class operation {
     double abs(double x) {
         return Math.abs(x);
     }
-    double pi(double x) {
-        return Math.PI;
+
+    void pi(Stack<String> st_num) {
+        st_num.push(Double.toString(Math.PI));
     }
-    double e(double x) {
-        return Math.E;
+    void e(Stack<String> st_num) {
+        st_num.push(Double.toString(Math.E));
     }
 
     double inv(double x) {
