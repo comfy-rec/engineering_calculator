@@ -48,7 +48,11 @@
 
 ### 2-4. Layout
 
-    activity_main.xml - LinearLayout에서 TextView 출력창(outputLog), TexrView 입력창(inputFormula), TableLayout에서 버튼 배치.
+    activity_main.xml  
+    LinearLayout - higher hierarchy  
+    TextView - outputLog display  
+    TexrView - inputFormula display  
+    TableLayout - button display
 
 ### 2-5. Data Type
 
