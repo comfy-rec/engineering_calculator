@@ -1,12 +1,12 @@
 # engineering_calculator
 
-## 1. 목적
+## 1. Purpose
     design an engineering calculator.  
     implement an engineering calculator as an application.
     
     JAVA , XML, Eclipse, Android studio
 
-## 2. 설계
+## 2. Design
 
 ### 2-1. UML(Unified Modeling Language) Diagram
 
@@ -50,12 +50,12 @@
 
     activity_main.xml - LinearLayout에서 TextView 출력창(outputLog), TexrView 입력창(inputFormula), TableLayout에서 버튼 배치.
 
-### 2-5. Data Definition
+### 2-5. Data Type
 
-    input datatype - String
+    input data type - String
    
-    operating datatype - Double
+    operating data type - Double
    
-    output datatype - String
+    output data type - String
 
-## 3. 결과
+## 3. Conclusion
