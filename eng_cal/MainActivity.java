@@ -213,8 +213,8 @@ public class MainActivity extends AppCompatActivity {
                         operator += "e";
                         break;
                     case R.id.inv:
-                        inFor += "^(-1)";
-                        operator += "^(-1)";
+                        inFor += "^(neg1)";
+                        operator += "^(neg1)";
                         break;
                     case R.id.pow:
                         inFor += "^";
@@ -229,7 +229,7 @@ public class MainActivity extends AppCompatActivity {
                         operator += "log";
                         break;
                     case R.id.ln:
-                        inFor += "ln";
+                        inFor += "ln_";
                         operator += "ln";
                         break;
                     case R.id.par1:
@@ -261,7 +261,7 @@ public class MainActivity extends AppCompatActivity {
                         operator += ".";
                         break;
                     case R.id.negative:
-                        inFor += "-";
+                        inFor += "neg";
                         operator += "-";
                         break;
                     case R.id.exp:
