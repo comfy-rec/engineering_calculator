@@ -1,7 +1,8 @@
 # engineering_calculator
 
 ## 1. Purpose
-    design an engineering calculator.  
+    design an engineering calculator.
+    
     implement an engineering calculator as an application.
     
     JAVA , XML, Eclipse, Android studio
