@@ -1,10 +1,10 @@
 # engineering_calculator
 
 ## 1. 목적
-
-    공학용 계산기를 설계하고 애플리케이션으로 구현한다.
-   
-    사용 언어 및 IDE : JAVA , XML, Eclipse, Android studio
+    design an engineering calculator.  
+    implement an engineering calculator as an application.
+    
+    JAVA , XML, Eclipse, Android studio
 
 ## 2. 설계
 
@@ -52,10 +52,10 @@
 
 ### 2-5. Data Definition
 
-    String으로 입력.
+    input datatype - String
    
-    연산할 때만 Double로 변환 후 연산.
+    operating datatype - Double
    
-    String으로 출력.
+    output datatype - String
 
 ## 3. 결과
