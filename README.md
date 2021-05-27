@@ -48,10 +48,14 @@
 
 ### 2-4. Layout
 
-    activity_main.xml  
-    LinearLayout - higher hierarchy  
-    TextView - outputLog display  
-    TexrView - inputFormula display  
+    activity_main.xml
+    
+    LinearLayout - higher hierarchy
+    
+    TextView - outputLog display
+    
+    TexrView - inputFormula display
+    
     TableLayout - button display
 
 ### 2-5. Data Type
