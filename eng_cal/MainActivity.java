@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
     String operator, inFor;
     String logData;
     Double res;
-    outputLog outLog;
     stackPriority sp;
 
     //public static final double π = Math.PI;
@@ -97,7 +96,6 @@ public class MainActivity extends AppCompatActivity {
         outputLog = (TextView) findViewById(R.id.outputLog);
         outputLog.setMovementMethod(new ScrollingMovementMethod());
 
-        outLog = new outputLog();
         sp = new stackPriority();
 
         //변수 초기화
