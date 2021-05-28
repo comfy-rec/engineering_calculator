@@ -1,6 +1,7 @@
 # engineering_calculator
 
 ## 1. Purpose
+
     design an engineering calculator.
     
     implement an engineering calculator as an application.
@@ -27,9 +28,12 @@
 
     stackPriority.java - operation & stack priority decision, postfix operation
 
-### 2-3. Method
+### 2-3. Constructor
 
-    activity_main.xml
+    stackPriority.java  
+    stackPriority() - stack initialization & allocation
+
+### 2-4. Method
 
     MainActivity.java  
     void init() - initialization  
@@ -40,14 +44,13 @@
     void split(Stack<String> st_num, Stack<String> op, String s) - number & operator split
 
     stackPriority.java  
-    stackPriority() - stack initialization & allocation  
     void makeStack(String inputFormula) - stack control  
     void calStack(String op) - calculation  
     void assignPri(String post) - priority assignment & comparision  
     boolean isOperator(String s) - ( & operator verification  
     boolean isdigit(String s) - number verification
 
-### 2-4. Layout
+### 2-5. Layout
 
     activity_main.xml
     
@@ -59,7 +62,9 @@
     
     TableLayout - button display
 
-### 2-5. Data Type
+### 2-6. Data Type
+
+    data include numbers and operators.
 
     input data type - String
    
