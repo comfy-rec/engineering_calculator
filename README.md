@@ -14,9 +14,15 @@
 
 #### 2-1-1. Use Case Diagram
 
+![usecase](https://user-images.githubusercontent.com/62055003/120105302-537d3580-c193-11eb-985b-d853d8040e61.png)
+
 #### 2-1-2. Sequence Diagram
 
+![squence](https://user-images.githubusercontent.com/62055003/120105312-5c6e0700-c193-11eb-950c-ad88d15c3d9a.png)
+
 #### 2-1-3. Class Diagram
+
+![class](https://user-images.githubusercontent.com/62055003/120105316-63951500-c193-11eb-9cac-ad7ce319e087.png)
 
 ### 2-2. Class
 
