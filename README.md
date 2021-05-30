@@ -80,9 +80,7 @@
 
     binary operation
     
-    four fundamental rules of arithmetics(sum, sub, mul, div), mod
-    
-    parentheses, decimal point
+    four fundamental rules of arithmetics(sum, sub, mul, div), mod, parentheses, decimal point
     
     calculate : 4 x -1 ÷ 5 = -0.8
     
@@ -104,14 +102,14 @@
 
 ![unaryop](https://user-images.githubusercontent.com/62055003/120094060-198f3d80-c159-11eb-84a9-69695f7dba99.png)
 
-    π(pi) - circular constant
+    π(pi, circular constant), π+1
     
 ![pi](https://user-images.githubusercontent.com/62055003/120094066-214ee200-c159-11eb-979c-5c5df1852d49.png)
 
-    e - Euler's Number, Napier's Constant
+    e(Euler's Number, Napier's Constant), e-1
 
 ![e](https://user-images.githubusercontent.com/62055003/120094074-31ff5800-c159-11eb-94d6-201281793ea2.png)
 
-    clear, outputLog scroll
+    del, clear, outputLog scroll
     
 ![clearsc](https://user-images.githubusercontent.com/62055003/120094208-00d35780-c15a-11eb-869c-0d805820f05f.png)
