@@ -73,3 +73,43 @@
     output data type - String
 
 ## 3. Conclusion
+
+    initial screen
+    
+    ![initial](https://user-images.githubusercontent.com/62055003/120094033-f3699d80-c158-11eb-9a0b-ab571747bc65.png)
+
+    binary operation
+    
+    four fundamental rules of arithmetics(sum, sub, mul, div), mod
+    
+    ![binaryop](https://user-images.githubusercontent.com/62055003/120094045-05e3d700-c159-11eb-9346-3f80848c5a19.png)
+
+    transcendental function
+    
+    trigonometrical function(sin, cos, tan)
+    
+    common logarithm(log)
+    
+    natural logarithm(ln)
+    
+    exponential(10E7=10000000)
+
+    ![transcendental function](https://user-images.githubusercontent.com/62055003/120094053-11cf9900-c159-11eb-864b-d465ca22adf8.png)
+
+    unary operation
+    
+    factorial absulute value inverse power square root
+
+    ![unaryop](https://user-images.githubusercontent.com/62055003/120094060-198f3d80-c159-11eb-84a9-69695f7dba99.png)
+
+    π pi circular constant
+    
+    ![pi](https://user-images.githubusercontent.com/62055003/120094066-214ee200-c159-11eb-979c-5c5df1852d49.png)
+
+    e Euler's Number Napier's Constant
+
+    ![e](https://user-images.githubusercontent.com/62055003/120094074-31ff5800-c159-11eb-94d6-201281793ea2.png)
+
+    clear & scroll
+    
+    ![clear scroll](https://user-images.githubusercontent.com/62055003/120094080-3af02980-c159-11eb-9ebd-316c8566f08d.png)
