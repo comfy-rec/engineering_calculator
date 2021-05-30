@@ -88,7 +88,7 @@
 
     transcendental function
     
-    trigonometrical function(sin, cos, tan), common logarithm(log), natural logarithm(ln), exponential(10E7=100000000)
+    trigonometrical function(sin(deg), cos(deg), tan(deg)), common logarithm(log), natural logarithm(ln), exponential(10E7=100000000)
     
     calculate : 0 + 1 + 0 + 8 + 1 = 10
 
